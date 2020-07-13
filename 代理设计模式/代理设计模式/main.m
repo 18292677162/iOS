@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
     Store *store = [[Store alloc] init];
     FakeStore *fakeStore = [[FakeStore alloc] init];
     
-    factory.store = store;
+    factory.delegate = store;
     
     // 虽然遵守了协议，但是当中并没有实现方法，运行会报错，所以一定在调用时检测方法是否实现
     // factory.store = fakeStore;
