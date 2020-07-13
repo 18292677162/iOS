@@ -20,12 +20,12 @@ int main(int argc, const char * argv[]) {
     factory.store = store;
     
     // 虽然遵守了协议，但是当中并没有实现方法，运行会报错，所以一定在调用时检测方法是否实现
-    factory.store = fakeStore;
+    // factory.store = fakeStore;
     
     factory.Goods = 10;
     NSLog(@"货物总数:%d", factory.Goods);
     
-    [factory factorySell];
+    [factory factoryWantSell];
     
     // [store storeSell:factory];
     
