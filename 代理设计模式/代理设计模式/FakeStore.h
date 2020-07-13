@@ -7,16 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SellProtocol.h"
+// #import "Factory.h"
 
-@class Factory;
+// @class Factory;
+@protocol FactoryProtocol;
 
-NS_ASSUME_NONNULL_BEGIN
+@interface FakeStore : NSObject <FactoryProtocol>
 
-@interface FakeStore : NSObject <SellProtocol>
-
--(void)storeSell:(Factory *)factory;
+// - (void)factorySell:(Factory *)factory;
 
 @end
 
-NS_ASSUME_NONNULL_END
