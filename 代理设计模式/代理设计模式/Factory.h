@@ -11,7 +11,7 @@
 
 // @class Store, FakeStore;
 
-NS_ASSUME_NONNULL_BEGIN
+
 @class Factory;
 
 @protocol FactoryProtocol <NSObject>
@@ -29,8 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)factoryWantSell;
 
 // 商店
-@property (nonatomic, strong) id<FactoryProtocol> store;
+@property (nonatomic, strong) id<FactoryProtocol> delegate;
 
 @end
 
-NS_ASSUME_NONNULL_END
