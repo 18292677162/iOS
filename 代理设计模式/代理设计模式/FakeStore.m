@@ -11,8 +11,8 @@
 
 @implementation FakeStore
 
--(void)storeSell:(Factory *)factory {
+-(void)factorySell:(Factory *)factory {
     factory.Goods--;
-    NSLog(@"商店代销:%d", factory.Goods);
+    NSLog(@"商店B代销:%d", factory.Goods);
 }
 @end
