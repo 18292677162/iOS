@@ -12,13 +12,13 @@
 
 @implementation Factory
 
--(void)factorySell{
+-(void)factoryWantSell{
     NSLog(@"工厂想卖货");
     
     // 通知商场卖货，虽然代理都遵守了协议，但是不一定实现方法
     // 调用时一定要进行判断，判断商店是否真正能帮你卖货
-    if ([self.store respondsToSelector:@selector(storeSell:)]) {
-        [self.store storeSell:self];
+    if ([self.store respondsToSelector:@selector(factorySell:)]) {
+        [self.store factorySell:self];
     }
 }
 
