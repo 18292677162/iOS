@@ -7,11 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SellProtocol.h"
+// #import "SellProtocol.h"
 
 // @class Store, FakeStore;
 
 NS_ASSUME_NONNULL_BEGIN
+@class Factory;
+
+@protocol FactoryProtocol <NSObject>
+
+- (void)factorySell:(Factory *)factory;
+
+@end
 
 @interface Factory : NSObject
 
@@ -19,10 +26,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) int Goods;
 
 // 卖货
--(void)factorySell;
+-(void)factoryWantSell;
 
 // 商店
-@property (nonatomic, strong) id<SellProtocol> store;
+@property (nonatomic, strong) id<FactoryProtocol> store;
 
 @end
 
