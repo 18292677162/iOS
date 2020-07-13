@@ -10,7 +10,6 @@
 
 @class Factory;
 
-NS_ASSUME_NONNULL_BEGIN
 
 @protocol SellProtocol <NSObject>
 
@@ -19,4 +18,3 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END
