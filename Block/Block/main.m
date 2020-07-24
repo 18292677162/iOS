@@ -19,7 +19,6 @@ int main(int argc, const char * argv[]) {
     NSLog(@"sum = %i", sumBlock(10, 20));
      */
     
-    
     calculte sumBlock = ^(int v1, int v2){
         return v1 + v2;
     };
