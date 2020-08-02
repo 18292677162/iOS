@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC461F0324D6C5500071FA0E /* UITextField+InitWithText.m in Sources */ = {isa = PBXBuildFile; fileRef = BC461ED924D6C5500071FA0E /* UITextField+InitWithText.m */; };
+		BC461F0424D6C5500071FA0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC461EDA24D6C5500071FA0E /* Assets.xcassets */; };
+		BC461F0524D6C5500071FA0E /* MyController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC461EDB24D6C5500071FA0E /* MyController.xib */; };
+		BC461F0624D6C5500071FA0E /* CountryTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BC461EDD24D6C5500071FA0E /* CountryTextField.m */; };
+		BC461F0724D6C5500071FA0E /* ydl.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC461EDF24D6C5500071FA0E /* ydl.gif */; };
+		BC461F0824D6C5500071FA0E /* putaoya.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC461EE024D6C5500071FA0E /* putaoya.gif */; };
+		BC461F0924D6C5500071FA0E /* helan.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC461EE124D6C5500071FA0E /* helan.gif */; };
+		BC461F0A24D6C5500071FA0E /* wlgui.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC461EE224D6C5500071FA0E /* wlgui.gif */; };
+		BC461F0B24D6C5500071FA0E /* hanguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC461EE324D6C5500071FA0E /* hanguo.gif */; };
+		BC461F0C24D6C5500071FA0E /* ruishi.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC461EE424D6C5500071FA0E /* ruishi.gif */; };
+		BC461F0D24D6C5500071FA0E /* deguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC461EE524D6C5500071FA0E /* deguo.gif */; };
+		BC461F0E24D6C5500071FA0E /* agt.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC461EE624D6C5500071FA0E /* agt.gif */; };
+		BC461F0F24D6C5500071FA0E /* faguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC461EE724D6C5500071FA0E /* faguo.gif */; };
+		BC461F1024D6C5500071FA0E /* xiby.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC461EE824D6C5500071FA0E /* xiby.gif */; };
+		BC461F1124D6C5500071FA0E /* baxi.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC461EE924D6C5500071FA0E /* baxi.gif */; };
+		BC461F1224D6C5500071FA0E /* ruidian.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC461EEA24D6C5500071FA0E /* ruidian.gif */; };
+		BC461F1324D6C5500071FA0E /* ying.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC461EEB24D6C5500071FA0E /* ying.gif */; };
+		BC461F1424D6C5500071FA0E /* zhongguo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC461EEC24D6C5500071FA0E /* zhongguo.jpg */; };
+		BC461F1524D6C5510071FA0E /* FlagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BC461EED24D6C5500071FA0E /* FlagItem.m */; };
+		BC461F1624D6C5510071FA0E /* FlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC461EEE24D6C5500071FA0E /* FlagView.m */; };
+		BC461F1724D6C5510071FA0E /* FlagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC461EF124D6C5500071FA0E /* FlagView.xib */; };
+		BC461F1824D6C5510071FA0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC461EF424D6C5500071FA0E /* LaunchScreen.storyboard */; };
+		BC461F1924D6C5510071FA0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC461EF624D6C5500071FA0E /* main.m */; };
+		BC461F1A24D6C5510071FA0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC461EF724D6C5500071FA0E /* AppDelegate.m */; };
+		BC461F1B24D6C5510071FA0E /* DateTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BC461EFB24D6C5500071FA0E /* DateTextField.m */; };
+		BC461F1C24D6C5510071FA0E /* ProvinceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BC461EFD24D6C5500071FA0E /* ProvinceItem.m */; };
+		BC461F1D24D6C5510071FA0E /* ProvinceTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BC461EFE24D6C5500071FA0E /* ProvinceTextField.m */; };
+		BC461F1E24D6C5510071FA0E /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC461F0124D6C5500071FA0E /* MyViewController.m */; };
+		BC461F1F24D6C5510071FA0E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC461F0224D6C5500071FA0E /* Info.plist */; };
+		BC461F2124D6C6BC0071FA0E /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC461F2024D6C6BC0071FA0E /* flags.plist */; };
+		BC461F2324D6C6D50071FA0E /* provinces.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC461F2224D6C6D50071FA0E /* provinces.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC461ED824D6C5500071FA0E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC461ED924D6C5500071FA0E /* UITextField+InitWithText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+InitWithText.m"; sourceTree = "<group>"; };
+		BC461EDA24D6C5500071FA0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC461EDB24D6C5500071FA0E /* MyController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyController.xib; sourceTree = "<group>"; };
+		BC461EDD24D6C5500071FA0E /* CountryTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryTextField.m; sourceTree = "<group>"; };
+		BC461EDF24D6C5500071FA0E /* ydl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ydl.gif; sourceTree = "<group>"; };
+		BC461EE024D6C5500071FA0E /* putaoya.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = putaoya.gif; sourceTree = "<group>"; };
+		BC461EE124D6C5500071FA0E /* helan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = helan.gif; sourceTree = "<group>"; };
+		BC461EE224D6C5500071FA0E /* wlgui.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wlgui.gif; sourceTree = "<group>"; };
+		BC461EE324D6C5500071FA0E /* hanguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hanguo.gif; sourceTree = "<group>"; };
+		BC461EE424D6C5500071FA0E /* ruishi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruishi.gif; sourceTree = "<group>"; };
+		BC461EE524D6C5500071FA0E /* deguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = deguo.gif; sourceTree = "<group>"; };
+		BC461EE624D6C5500071FA0E /* agt.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = agt.gif; sourceTree = "<group>"; };
+		BC461EE724D6C5500071FA0E /* faguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = faguo.gif; sourceTree = "<group>"; };
+		BC461EE824D6C5500071FA0E /* xiby.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xiby.gif; sourceTree = "<group>"; };
+		BC461EE924D6C5500071FA0E /* baxi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = baxi.gif; sourceTree = "<group>"; };
+		BC461EEA24D6C5500071FA0E /* ruidian.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruidian.gif; sourceTree = "<group>"; };
+		BC461EEB24D6C5500071FA0E /* ying.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ying.gif; sourceTree = "<group>"; };
+		BC461EEC24D6C5500071FA0E /* zhongguo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhongguo.jpg; sourceTree = "<group>"; };
+		BC461EED24D6C5500071FA0E /* FlagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagItem.m; sourceTree = "<group>"; };
+		BC461EEE24D6C5500071FA0E /* FlagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagView.m; sourceTree = "<group>"; };
+		BC461EEF24D6C5500071FA0E /* FlagItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagItem.h; sourceTree = "<group>"; };
+		BC461EF024D6C5500071FA0E /* CountryTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryTextField.h; sourceTree = "<group>"; };
+		BC461EF124D6C5500071FA0E /* FlagView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlagView.xib; sourceTree = "<group>"; };
+		BC461EF224D6C5500071FA0E /* FlagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagView.h; sourceTree = "<group>"; };
+		BC461EF324D6C5500071FA0E /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		BC461EF524D6C5500071FA0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC461EF624D6C5500071FA0E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC461EF724D6C5500071FA0E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC461EF824D6C5500071FA0E /* UITextField+InitWithText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+InitWithText.h"; sourceTree = "<group>"; };
+		BC461EFA24D6C5500071FA0E /* DateTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTextField.h; sourceTree = "<group>"; };
+		BC461EFB24D6C5500071FA0E /* DateTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTextField.m; sourceTree = "<group>"; };
+		BC461EFD24D6C5500071FA0E /* ProvinceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvinceItem.m; sourceTree = "<group>"; };
+		BC461EFE24D6C5500071FA0E /* ProvinceTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvinceTextField.m; sourceTree = "<group>"; };
+		BC461EFF24D6C5500071FA0E /* ProvinceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvinceItem.h; sourceTree = "<group>"; };
+		BC461F0024D6C5500071FA0E /* ProvinceTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvinceTextField.h; sourceTree = "<group>"; };
+		BC461F0124D6C5500071FA0E /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		BC461F0224D6C5500071FA0E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC461F2024D6C6BC0071FA0E /* flags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flags.plist; sourceTree = "<group>"; };
+		BC461F2224D6C6D50071FA0E /* provinces.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provinces.plist; sourceTree = "<group>"; };
+		BCA8460824D6C4FF0026ABAE /* MyUIPickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyUIPickView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA8460524D6C4FF0026ABAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC461ED724D6C5500071FA0E /* MyUIPickView */ = {
+			isa = PBXGroup;
+			children = (
+				BC461ED824D6C5500071FA0E /* AppDelegate.h */,
+				BC461ED924D6C5500071FA0E /* UITextField+InitWithText.m */,
+				BC461EDA24D6C5500071FA0E /* Assets.xcassets */,
+				BC461EDB24D6C5500071FA0E /* MyController.xib */,
+				BC461EDC24D6C5500071FA0E /* CountryTextField */,
+				BC461EF324D6C5500071FA0E /* MyViewController.h */,
+				BC461EF424D6C5500071FA0E /* LaunchScreen.storyboard */,
+				BC461EF624D6C5500071FA0E /* main.m */,
+				BC461EF724D6C5500071FA0E /* AppDelegate.m */,
+				BC461EF824D6C5500071FA0E /* UITextField+InitWithText.h */,
+				BC461EF924D6C5500071FA0E /* DateTextField */,
+				BC461EFC24D6C5500071FA0E /* ProvinceTextField */,
+				BC461F0124D6C5500071FA0E /* MyViewController.m */,
+				BC461F0224D6C5500071FA0E /* Info.plist */,
+			);
+			path = MyUIPickView;
+			sourceTree = "<group>";
+		};
+		BC461EDC24D6C5500071FA0E /* CountryTextField */ = {
+			isa = PBXGroup;
+			children = (
+				BC461EDE24D6C5500071FA0E /* guoqi */,
+				BC461F2024D6C6BC0071FA0E /* flags.plist */,
+				BC461EF024D6C5500071FA0E /* CountryTextField.h */,
+				BC461EDD24D6C5500071FA0E /* CountryTextField.m */,
+				BC461EED24D6C5500071FA0E /* FlagItem.m */,
+				BC461EEE24D6C5500071FA0E /* FlagView.m */,
+				BC461EEF24D6C5500071FA0E /* FlagItem.h */,
+				BC461EF124D6C5500071FA0E /* FlagView.xib */,
+				BC461EF224D6C5500071FA0E /* FlagView.h */,
+			);
+			path = CountryTextField;
+			sourceTree = "<group>";
+		};
+		BC461EDE24D6C5500071FA0E /* guoqi */ = {
+			isa = PBXGroup;
+			children = (
+				BC461EDF24D6C5500071FA0E /* ydl.gif */,
+				BC461EE024D6C5500071FA0E /* putaoya.gif */,
+				BC461EE124D6C5500071FA0E /* helan.gif */,
+				BC461EE224D6C5500071FA0E /* wlgui.gif */,
+				BC461EE324D6C5500071FA0E /* hanguo.gif */,
+				BC461EE424D6C5500071FA0E /* ruishi.gif */,
+				BC461EE524D6C5500071FA0E /* deguo.gif */,
+				BC461EE624D6C5500071FA0E /* agt.gif */,
+				BC461EE724D6C5500071FA0E /* faguo.gif */,
+				BC461EE824D6C5500071FA0E /* xiby.gif */,
+				BC461EE924D6C5500071FA0E /* baxi.gif */,
+				BC461EEA24D6C5500071FA0E /* ruidian.gif */,
+				BC461EEB24D6C5500071FA0E /* ying.gif */,
+				BC461EEC24D6C5500071FA0E /* zhongguo.jpg */,
+			);
+			path = guoqi;
+			sourceTree = "<group>";
+		};
+		BC461EF924D6C5500071FA0E /* DateTextField */ = {
+			isa = PBXGroup;
+			children = (
+				BC461EFA24D6C5500071FA0E /* DateTextField.h */,
+				BC461EFB24D6C5500071FA0E /* DateTextField.m */,
+			);
+			path = DateTextField;
+			sourceTree = "<group>";
+		};
+		BC461EFC24D6C5500071FA0E /* ProvinceTextField */ = {
+			isa = PBXGroup;
+			children = (
+				BC461F2224D6C6D50071FA0E /* provinces.plist */,
+				BC461EFD24D6C5500071FA0E /* ProvinceItem.m */,
+				BC461EFE24D6C5500071FA0E /* ProvinceTextField.m */,
+				BC461EFF24D6C5500071FA0E /* ProvinceItem.h */,
+				BC461F0024D6C5500071FA0E /* ProvinceTextField.h */,
+			);
+			path = ProvinceTextField;
+			sourceTree = "<group>";
+		};
+		BCA845FF24D6C4FF0026ABAE = {
+			isa = PBXGroup;
+			children = (
+				BC461ED724D6C5500071FA0E /* MyUIPickView */,
+				BCA8460924D6C4FF0026ABAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA8460924D6C4FF0026ABAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA8460824D6C4FF0026ABAE /* MyUIPickView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA8460724D6C4FF0026ABAE /* MyUIPickView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA8462124D6C5000026ABAE /* Build configuration list for PBXNativeTarget "MyUIPickView" */;
+			buildPhases = (
+				BCA8460424D6C4FF0026ABAE /* Sources */,
+				BCA8460524D6C4FF0026ABAE /* Frameworks */,
+				BCA8460624D6C4FF0026ABAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyUIPickView;
+			productName = MyUIPickView;
+			productReference = BCA8460824D6C4FF0026ABAE /* MyUIPickView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA8460024D6C4FF0026ABAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Pinna;
+				TargetAttributes = {
+					BCA8460724D6C4FF0026ABAE = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = BCA8460324D6C4FF0026ABAE /* Build configuration list for PBXProject "MyUIPickView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCA845FF24D6C4FF0026ABAE;
+			productRefGroup = BCA8460924D6C4FF0026ABAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA8460724D6C4FF0026ABAE /* MyUIPickView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA8460624D6C4FF0026ABAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC461F0724D6C5500071FA0E /* ydl.gif in Resources */,
+				BC461F0A24D6C5500071FA0E /* wlgui.gif in Resources */,
+				BC461F0C24D6C5500071FA0E /* ruishi.gif in Resources */,
+				BC461F0F24D6C5500071FA0E /* faguo.gif in Resources */,
+				BC461F1024D6C5500071FA0E /* xiby.gif in Resources */,
+				BC461F1224D6C5500071FA0E /* ruidian.gif in Resources */,
+				BC461F2124D6C6BC0071FA0E /* flags.plist in Resources */,
+				BC461F1724D6C5510071FA0E /* FlagView.xib in Resources */,
+				BC461F2324D6C6D50071FA0E /* provinces.plist in Resources */,
+				BC461F0E24D6C5500071FA0E /* agt.gif in Resources */,
+				BC461F1324D6C5500071FA0E /* ying.gif in Resources */,
+				BC461F1F24D6C5510071FA0E /* Info.plist in Resources */,
+				BC461F1824D6C5510071FA0E /* LaunchScreen.storyboard in Resources */,
+				BC461F0424D6C5500071FA0E /* Assets.xcassets in Resources */,
+				BC461F0824D6C5500071FA0E /* putaoya.gif in Resources */,
+				BC461F0924D6C5500071FA0E /* helan.gif in Resources */,
+				BC461F0524D6C5500071FA0E /* MyController.xib in Resources */,
+				BC461F1424D6C5500071FA0E /* zhongguo.jpg in Resources */,
+				BC461F0D24D6C5500071FA0E /* deguo.gif in Resources */,
+				BC461F0B24D6C5500071FA0E /* hanguo.gif in Resources */,
+				BC461F1124D6C5500071FA0E /* baxi.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA8460424D6C4FF0026ABAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC461F1924D6C5510071FA0E /* main.m in Sources */,
+				BC461F0624D6C5500071FA0E /* CountryTextField.m in Sources */,
+				BC461F1B24D6C5510071FA0E /* DateTextField.m in Sources */,
+				BC461F1A24D6C5510071FA0E /* AppDelegate.m in Sources */,
+				BC461F1E24D6C5510071FA0E /* MyViewController.m in Sources */,
+				BC461F1524D6C5510071FA0E /* FlagItem.m in Sources */,
+				BC461F1624D6C5510071FA0E /* FlagView.m in Sources */,
+				BC461F1C24D6C5510071FA0E /* ProvinceItem.m in Sources */,
+				BC461F0324D6C5500071FA0E /* UITextField+InitWithText.m in Sources */,
+				BC461F1D24D6C5510071FA0E /* ProvinceTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC461EF424D6C5500071FA0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC461EF524D6C5500071FA0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCA8461F24D6C5000026ABAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCA8462024D6C5000026ABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA8462224D6C5000026ABAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyUIPickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pinna.MyUIPickView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCA8462324D6C5000026ABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyUIPickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pinna.MyUIPickView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA8460324D6C4FF0026ABAE /* Build configuration list for PBXProject "MyUIPickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA8461F24D6C5000026ABAE /* Debug */,
+				BCA8462024D6C5000026ABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA8462124D6C5000026ABAE /* Build configuration list for PBXNativeTarget "MyUIPickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA8462224D6C5000026ABAE /* Debug */,
+				BCA8462324D6C5000026ABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCA8460024D6C4FF0026ABAE /* Project object */;
+}
